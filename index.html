@@ -11,7 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"
   />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
@@ -44,9 +45,47 @@
     <div class="container">
       <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
       <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
-      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
     </div>
   </header>
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">
+      Encontre em nossa estante o que precisa para seu desenvolvimento!
+    </p>
+    <input
+      type="search"
+      class="banner__pesquisa"
+      placeholder="Qual será sua próxima leitura?"
+    />
+  </section>
+
+  <section class="segunda">
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+          <p class="descrição__texto">
+            Construindo uma aplicação integrada com a plataforma do Google.
+          </p>
+        </div>
+        <img src="img/Angular.svg" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+    
+  </section>
 </body>
 
 </html>
